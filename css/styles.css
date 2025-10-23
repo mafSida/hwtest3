@@ -1,14 +1,9 @@
-body {
-  color: #434455;
-  background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
+/* =====GLOBAL RESET===== */
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -21,7 +16,17 @@ a {
 button {
   cursor: pointer;
   color: inherit;
+  background: transparent;
   font: inherit;
+}
+
+/* =====GLOBAL STYLES===== */
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 h2 {
@@ -134,10 +139,33 @@ h3 {
 }
 
 /* --------------FEATURES---------------- */
+
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.features .container {
+}
+.features-title {
+}
+.features-list {
+  display: flex;
+  column-gap: 24px;
+}
+.features-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.features-list-title {
+}
+.features-list-text {
+}
+
 /* ----------------TEAM------------------ */
 
 .team {
   background-color: #f4f4fd;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .team-item {
