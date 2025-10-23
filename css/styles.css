@@ -168,8 +168,10 @@ h3 {
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .team-list {
@@ -193,10 +195,45 @@ h3 {
 }
 
 /* -----------------PORTFOLIO------------ */
+
+.portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.portfolio-title {
+  padding-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 2 * 24px) / 3);
+}
+
+.pruducts-card-wrap {
+  padding: 32px 0 32px 16px;
+}
+
+.portfolio-list-title {
+  margin-bottom: 8px;
+}
+
+.portfolio-list-text {
+}
+
 /* ------------------FOOTER-------------- */
 
 .footer {
   background-color: #2e2f42;
+  margin-top: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer .studio {
