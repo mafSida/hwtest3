@@ -20,6 +20,10 @@ button {
   font: inherit;
 }
 
+/* img {
+  display: block;
+} */
+
 /* =====GLOBAL STYLES===== */
 body {
   color: #434455;
@@ -168,8 +172,16 @@ h3 {
   padding-bottom: 60px;
 }
 
+.team-list {
+  display: flex;
+  column-gap: 24px;
+}
+
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px;
 }
 
 .team-list-title {
