@@ -20,9 +20,10 @@ button {
   font: inherit;
 }
 
-/* img {
+img {
   display: block;
-} */
+  max-width: 100%;
+}
 
 /* =====GLOBAL STYLES===== */
 body {
